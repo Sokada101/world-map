@@ -1,0 +1,56 @@
+h1 {
+    color: #659dbd;
+    font-size: 5em;
+}
+
+.header{
+      text-align: center;
+   display: flex;
+   flex-direction: row;
+  justify-content:space-between; 
+  padding: 20px;
+}
+
+.personal-info {
+  color: #659dbd;
+     display: flex;
+   flex-direction: column;
+  margin-top: 2em;
+    margin-left: 2em;
+}
+
+.icons > a{
+    color: #659dbd;
+  font-size: 2em;
+  margin: 5px;
+}
+
+html {
+  background-color: #eee2dc ;
+  pointer-events: all; 
+}
+
+.country {
+  fill: #bab2b5;
+  stroke: #cccccc;
+  stroke-width: 1.2;
+}
+.active {
+    fill: #ac3b61;
+}
+
+
+.tooltip {
+     position: relative;
+     text-align: center;
+     padding: 2rem;
+     background: rgba(10,157,189, 0.7);
+     /* margin: 0.5em 3em 0 3em; */
+     font-size: 1.4rem;
+     color: #0e0a0c;
+
+}
+
+#text {
+  color: red;
+}
